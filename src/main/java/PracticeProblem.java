@@ -17,7 +17,7 @@ public class PracticeProblem {
 		System.out.print("Input an integer: ");
 		String a = input.nextLine();
 		String b = 5 + a;
-		System.out.printin(Integer.parseInt(b)+5);
+		System.out.println(Integer.parseInt(b)+5);
 
 		
 	}
@@ -27,8 +27,9 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		String c = input.nextLine();
-		String d = ((4 + c)+3);
-		System.out.println((Double.parseDouble(d)) + 3.2);
+		String d = 4 + c;
+		String k = d + 3;
+		System.out.println((Double.parseDouble(k)) + 3.2);
 		
 	}
 
@@ -45,9 +46,9 @@ public class PracticeProblem {
 		//Write question 4 code here
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input an integer: ");
-		String f = input.nextline();
+		String f = input.nextLine();
 		String g = (f + 3);
-		h = ((Integer.parseInt(g)) + 2);
+		int h = ((Integer.parseInt(g)) + 2);
 		System.out.println((char)h);
 
 	}
@@ -57,9 +58,9 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input an integer: ");
 		String i = ((input.nextLine()) + 1);
-		j = Interger.parseInt(i);
-		k = j/2;
-		System.out.println(Double.parseDouble(k));
+		int j = Integer.parseInt(i);
+		int k = j/2;
+		System.out.println(k + 0.0);
 		
 
 		
@@ -69,8 +70,8 @@ public class PracticeProblem {
 		//Write question 6 code here
 		Scanner input = new Scanner(System.in);
 		String l = (1 + (input.nextLine()));
-		l = Double.parseDouble(l);
-		System.ou.println((int)l);
+		Double l;
+		System.out.println((int)l);
 		input.close();
 
 		
