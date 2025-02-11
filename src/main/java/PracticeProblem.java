@@ -27,9 +27,8 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input a number: ");
 		String c = input.nextLine();
-		String d = 4 + c;
-		String k = d + 3;
-		System.out.println((Double.parseDouble(k)) + 3.2);
+		c= 4 + c + 3;
+		System.out.println((Double.parseDouble(c)) + 3.4);
 		
 	}
 
@@ -70,8 +69,8 @@ public class PracticeProblem {
 		//Write question 6 code here
 		Scanner input = new Scanner(System.in);
 		String l = (1 + (input.nextLine()));
-		Double l;
-		System.out.println((int)l);
+		Double m = Double.parseDouble(l);
+		System.out.println((int)m);
 		input.close();
 
 		
