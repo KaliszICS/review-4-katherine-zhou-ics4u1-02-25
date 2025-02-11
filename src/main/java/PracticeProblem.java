@@ -68,8 +68,8 @@ public class PracticeProblem {
 	public static void q6() {
 		//Write question 6 code here
 		Scanner input = new Scanner(System.in);
-		String l = (1 + (input.nextLine()));
-		Double m = Double.parseDouble(l);
+		String o = (1 + (input.nextLine()));
+		Double m = Double.parseDouble(o);
 		System.out.println((int)m);
 		input.close();
 
